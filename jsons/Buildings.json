@@ -1,0 +1,34 @@
+[
+    // Reactorland
+    {
+    "name": "Cyprinid Farm",
+    "replaces": "Water Mill",
+    "uniqueTo": "The Reactors",
+    "food": 3,
+    "culture": 1,
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "percentStatBonus": {"food": 10},
+    "uniques": [
+        "[+1 Food] from [Lakes] tiles [in this city]",
+        "[+1 Food] from [Oasis] tiles [in this city]"
+    ],
+    "requiredTech": "The Wheel"
+},
+{
+    "name": "Special Class",
+    "replaces": "Public School",
+    "uniqueTo": "The Reactors",
+    "science": 3,
+    "specialistSlots": {"Scientist": 1},
+    "requiredBuilding": "University",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "uniques": [
+        "[+1 Science] per [2] population [in this city]",
+        "[+1 Science] from [Forest] tiles [in this city]",
+        "[-1]% Unhappiness from [Population] [in all cities]"
+    ],
+    "requiredTech": "Scientific Theory"
+}
+]
